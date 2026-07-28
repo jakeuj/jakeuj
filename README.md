@@ -93,3 +93,5 @@
 <p align="center">
   <a href="https://jakeuj.com/default.html"><strong>Read my Traditional Chinese technical notes →</strong></a>
 </p>
+
+<!-- Profile README verified on 2026-07-28. -->
