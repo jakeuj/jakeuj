@@ -1,6 +1,4 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/hero-dark.webp">
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="./assets/hero-light.webp">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-motion-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-motion-light.svg">
   <img alt="Animated cloud, software, and data infrastructure artwork for Jakeuj" src="./assets/hero-motion-dark.svg" width="100%">
