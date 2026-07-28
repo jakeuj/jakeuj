@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1599" height="533" viewBox="0 0 1599 533" role="img" aria-labelledby="title description">
+  <title id="title">Jakeuj engineering systems in motion</title>
+  <desc id="description">An animated light cloud, data, and terminal-inspired engineering banner.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset=".55" stop-color="#eef7ff"/>
+      <stop offset="1" stop-color="#f5f1ff"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetGlow">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#0891b2" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#0284c7" stroke-opacity=".07"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect x="18" y="18" width="1563" height="497" rx="28"/>
+    </clipPath>
+  </defs>
+  <style>
+    .stream { stroke-dasharray:16 38; animation:stream 9s linear infinite; }
+    .stream.reverse { animation-direction:reverse; animation-duration:12s; }
+    .pulse { animation:pulse 3.6s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
+    .pulse.delay { animation-delay:-1.8s; }
+    .float { animation:float 7s ease-in-out infinite; }
+    .scan { animation:scan 8s ease-in-out infinite; }
+    .cursor { animation:blink 1.1s steps(2,jump-none) infinite; }
+    .signal { stroke-dasharray:210 900; animation:signal 6s linear infinite; }
+    .reveal { animation:reveal 1.2s ease-out both; }
+    .reveal.two { animation-delay:.25s; }
+    @keyframes stream { to { stroke-dashoffset:-216; } }
+    @keyframes pulse { 0%,100% { opacity:.45; transform:scale(.82); } 50% { opacity:1; transform:scale(1.18); } }
+    @keyframes float { 0%,100% { transform:translateY(-5px); } 50% { transform:translateY(8px); } }
+    @keyframes scan { 0%,100% { transform:translateY(-130px); opacity:0; } 18%,82% { opacity:.2; } 50% { transform:translateY(260px); } }
+    @keyframes blink { 50% { opacity:0; } }
+    @keyframes signal { to { stroke-dashoffset:-1110; } }
+    @keyframes reveal { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      .stream,.pulse,.float,.scan,.cursor,.signal,.reveal { animation:none !important; }
+    }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect x="18" y="18" width="1563" height="497" rx="28" fill="url(#background)"/>
+    <rect x="18" y="18" width="1563" height="497" rx="28" fill="url(#grid)"/>
+    <circle cx="1220" cy="110" r="360" fill="url(#cyanGlow)"/>
+    <circle cx="1380" cy="430" r="320" fill="url(#violetGlow)"/>
+    <path class="stream" d="M-40 425C240 315 360 485 620 365S1050 175 1640 255" fill="none" stroke="#0891b2" stroke-opacity=".3" stroke-width="2"/>
+    <path class="stream reverse" d="M-30 155C275 270 460 120 740 225s505 160 900 65" fill="none" stroke="#7c3aed" stroke-opacity=".24" stroke-width="2"/>
+    <path class="signal" d="M-50 344C270 235 420 425 695 315S1110 112 1650 205" fill="none" stroke="url(#signal)" stroke-width="4" filter="url(#glow)"/>
+
+    <g class="reveal">
+      <rect x="94" y="86" width="670" height="362" rx="22" fill="#ffffff" fill-opacity=".88" stroke="#bfd4e5"/>
+      <path d="M94 142H764" stroke="#d6e3ee"/>
+      <circle cx="130" cy="114" r="7" fill="#e11d48"/>
+      <circle cx="154" cy="114" r="7" fill="#d97706"/>
+      <circle cx="178" cy="114" r="7" fill="#16a34a"/>
+      <text x="215" y="120" fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18">jakeuj@cloud — zsh</text>
+      <text x="130" y="191" fill="#0891b2" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="22">➜</text>
+      <text x="165" y="191" fill="#172033" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="22">build --cloud --automate --share</text>
+      <text x="130" y="238" fill="#475569" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17">[01] .NET systems</text>
+      <text x="130" y="273" fill="#475569" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17">[02] cloud infrastructure</text>
+      <text x="130" y="308" fill="#475569" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17">[03] AI-powered workflows</text>
+      <text x="130" y="361" fill="#15803d" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18">✓ systems moving</text>
+      <rect class="cursor" x="318" y="342" width="11" height="23" rx="2" fill="#0891b2"/>
+      <text x="130" y="409" fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">TAIWAN · UTC+8 · ALWAYS LEARNING</text>
+    </g>
+
+    <g class="float">
+      <circle cx="1174" cy="251" r="128" fill="#ffffff" fill-opacity=".66" stroke="#0891b2" stroke-opacity=".5" stroke-width="2"/>
+      <circle cx="1174" cy="251" r="93" fill="none" stroke="#7c3aed" stroke-opacity=".28" stroke-dasharray="5 12"/>
+      <path d="M1096 260c9-33 34-48 65-48 20-34 76-28 87 12 30 2 51 20 51 46 0 29-22 49-56 49h-126c-35 0-58-21-58-50 0-23 15-41 37-47" fill="none" stroke="#0891b2" stroke-width="7" stroke-linecap="round" filter="url(#glow)"/>
+      <path d="M1120 352h108M1174 319v66" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+      <circle class="pulse" cx="1174" cy="385" r="8" fill="#7c3aed" filter="url(#glow)"/>
+    </g>
+
+    <g class="reveal two" fill="#334155" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+      <text x="1350" y="177" font-size="17">C#</text>
+      <text x="1378" y="236" font-size="17">AZURE</text>
+      <text x="1350" y="296" font-size="17">DOCKER</text>
+      <text x="1328" y="356" font-size="17">AGENTS</text>
+    </g>
+    <g fill="#0891b2" filter="url(#glow)">
+      <circle class="pulse" cx="1328" cy="171" r="6"/>
+      <circle class="pulse delay" cx="1356" cy="230" r="6"/>
+      <circle class="pulse" cx="1328" cy="290" r="6"/>
+      <circle class="pulse delay" cx="1306" cy="350" r="6"/>
+    </g>
+    <path d="M1230 238L1328 171M1266 255L1356 230M1256 286L1328 290M1222 319L1306 350" stroke="#0284c7" stroke-opacity=".22"/>
+    <rect class="scan" x="18" y="100" width="1563" height="2" fill="#06b6d4" filter="url(#glow)"/>
+  </g>
+  <rect x="18.5" y="18.5" width="1562" height="496" rx="27.5" fill="none" stroke="#bfd4e5"/>
+</svg>

@@ -1,7 +1,9 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.webp">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.webp">
-  <img alt="Abstract cloud, software, and data infrastructure artwork for Jakeuj" src="./assets/hero-dark.webp" width="100%">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/hero-dark.webp">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="./assets/hero-light.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-motion-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-motion-light.svg">
+  <img alt="Animated cloud, software, and data infrastructure artwork for Jakeuj" src="./assets/hero-motion-dark.svg" width="100%">
 </picture>
 
 <h1 align="center">Hi, I'm Jakeuj 👋</h1>
@@ -48,11 +50,30 @@
 
 ## Selected work
 
+<p align="center">
+  <a href="https://github.com/jakeuj/writerside"><img alt="Jakeuj's Notes project card" width="49%" src="./assets/project-writerside.svg"></a>
+  <a href="https://github.com/jakeuj/CodexPlugins"><img alt="CodexPlugins project card" width="49%" src="./assets/project-codex-plugins.svg"></a>
+  <a href="https://github.com/jakeuj/pixerDotnet"><img alt="Pixer .NET project card" width="49%" src="./assets/project-pixer-dotnet.svg"></a>
+</p>
+
+<details>
+<summary><strong>Project details</strong></summary>
+
 | Project | Focus | Stack |
 | --- | --- | --- |
 | [**Jakeuj's Notes**](https://github.com/jakeuj/writerside) | A Traditional Chinese knowledge base for .NET, cloud, DevOps, AI tooling, macOS, and field-tested troubleshooting | Writerside · Markdown · GitHub Pages |
 | [**CodexPlugins**](https://github.com/jakeuj/CodexPlugins) | Curated Codex and Claude Code plugins for reusable agent-assisted development workflows | Skills · MCP · Shell |
 | [**Pixer .NET**](https://github.com/jakeuj/pixerDotnet) | A .NET 9 client for image conversion, TCP device communication, and firmware workflows | C# · .NET 9 · TCP |
+
+</details>
+
+## Latest notes
+
+<!-- BLOG-POST-LIST:START -->
+- [**ABP.IO File System**](https://www.dotblogs.com.tw/jakeuj/2025/04/09/Abp-File-System) — 2025-04-09
+- [**ABP.IO File Management**](https://www.dotblogs.com.tw/jakeuj/2025/04/09/ABP-File-Management) — 2025-04-09
+- [**HTTP 301 Moved Permanently https://jakeuj.com/**](https://www.dotblogs.com.tw/jakeuj/2024/09/24/jakeuj-com) — 2024-09-24
+<!-- BLOG-POST-LIST:END -->
 
 ## Engineering snapshot
 
@@ -80,10 +101,18 @@
 
 </details>
 
+## Contribution journey
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-snake-light.svg">
+  <img alt="Animated visualization of Jakeuj's GitHub contributions" src="./assets/contribution-snake-dark.svg" width="100%">
+</picture>
+
 ---
 
 <p align="center">
   <a href="https://jakeuj.com/default.html"><strong>Read my Traditional Chinese technical notes →</strong></a>
 </p>
 
-<!-- Profile README verified on 2026-07-28. -->
+<!-- Dynamic profile content is refreshed daily by GitHub Actions. -->

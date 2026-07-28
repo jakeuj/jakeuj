@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="205" viewBox="0 0 495 205" role="img" aria-labelledby="title description">
+  <title id="title">writerside</title>
+  <desc id="description">Traditional Chinese technical knowledge base for .NET, cloud, DevOps, AI tooling, macOS, and real-world troubleshooting.</desc>
+  <style>
+    .card { fill:#0d1117; stroke:#30363d; }
+    .name { fill:#f0f6fc; font:700 20px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .description { fill:#b1bac4; font:400 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .stack { fill:#8b949e; font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .metric { fill:#c9d1d9; font:600 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .enter { animation:enter .8s ease-out both; }
+    .signal { stroke-dasharray:90 410; animation:signal 5s linear infinite; }
+    .pulse { animation:pulse 2.5s ease-in-out infinite; }
+    @keyframes enter { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes signal { to { stroke-dashoffset:-500; } }
+    @keyframes pulse { 0%,100% { opacity:.35; } 50% { opacity:1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .enter,.signal,.pulse { animation:none !important; }
+    }
+  </style>
+  <rect class="card" x=".5" y=".5" width="494" height="204" rx="12"/>
+  <path class="signal" d="M0 2H495" fill="none" stroke="#22d3ee" stroke-width="3"/>
+  <g class="enter">
+    <circle class="pulse" cx="28" cy="35" r="6" fill="#22d3ee"/>
+    <text class="name" x="44" y="42">writerside</text>
+    <text class="description" x="22" y="82">Traditional Chinese technical knowledge base for .NET,</text>
+  <text class="description" x="22" y="103">cloud,…</text>
+    <text class="stack" x="22" y="139">Writerside · Markdown · GitHub Pages</text>
+    <path d="M22 156H473" stroke="#21262d"/>
+    <text class="metric" x="22" y="182">★ 0</text>
+    <text class="metric" x="88" y="182">⑂ 0</text>
+    <text class="stack" x="284" y="182">pushed 2026-07-22</text>
+  </g>
+</svg>

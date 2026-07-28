@@ -1,32 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="190" role="img" aria-label="Languages across active repositories">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="220" viewBox="0 0 495 220" role="img" aria-labelledby="title description">
+  <title id="title">Languages across active repositories</title>
+  <desc id="description">Animated bars showing the primary languages across active public repositories.</desc>
   <style>
-    .card { fill: #0d1117; stroke: #30363d; }
-    .title { fill: #58a6ff; font: 600 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    .label { fill: #8b949e; font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    .value { fill: #f0f6fc; font: 700 23px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    .meta { fill: #8b949e; font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .card { fill:#0d1117; stroke:#30363d; }
+    .title { fill:#58a6ff; font:600 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .label { fill:#8b949e; font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .value { fill:#f0f6fc; font:700 23px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .meta { fill:#8b949e; font:400 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .enter { animation:enter .8s ease-out both; }
+    .bar { animation:grow 1.1s cubic-bezier(.2,.8,.2,1) both; transform-box:fill-box; transform-origin:left; }
+    .pulse { animation:pulse 2.8s ease-in-out infinite; }
+    @keyframes enter { from { opacity:0; transform:translateY(7px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes grow { from { transform:scaleX(0); } to { transform:scaleX(1); } }
+    @keyframes pulse { 0%,100% { opacity:.45; } 50% { opacity:1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .enter,.bar,.pulse { animation:none !important; }
+    }
   </style>
-  <rect class="card" x="0.5" y="0.5" width="494" height="189" rx="10"/>
+  <rect class="card" x=".5" y=".5" width="494" height="219" rx="10"/>
   <text class="title" x="22" y="34">Languages across active repositories</text>
-  <text class="label" x="22" y="61">C#</text>
-  <rect x="130" y="51" width="285" height="10" rx="5" fill="#21262d"/>
-  <rect x="130" y="51" width="285" height="10" rx="5" fill="#58a6ff"/>
-  <text class="meta" x="430" y="61">17 repos</text>
-  <text class="label" x="22" y="84">JavaScript</text>
-  <rect x="130" y="74" width="285" height="10" rx="5" fill="#21262d"/>
-  <rect x="130" y="74" width="117" height="10" rx="5" fill="#a371f7"/>
-  <text class="meta" x="430" y="84">7 repos</text>
-  <text class="label" x="22" y="107">HTML</text>
-  <rect x="130" y="97" width="285" height="10" rx="5" fill="#21262d"/>
-  <rect x="130" y="97" width="67" height="10" rx="5" fill="#3fb950"/>
-  <text class="meta" x="430" y="107">4 repos</text>
-  <text class="label" x="22" y="130">Shell</text>
-  <rect x="130" y="120" width="285" height="10" rx="5" fill="#21262d"/>
-  <rect x="130" y="120" width="50" height="10" rx="5" fill="#f0883e"/>
-  <text class="meta" x="430" y="130">3 repos</text>
-  <text class="label" x="22" y="153">C</text>
-  <rect x="130" y="143" width="285" height="10" rx="5" fill="#21262d"/>
-  <rect x="130" y="143" width="34" height="10" rx="5" fill="#f778ba"/>
-  <text class="meta" x="430" y="153">2 repos</text>
-  <text class="meta" x="22" y="177">Primary language by repository</text>
+  <g class="enter" style="animation-delay:0ms">
+    <text class="label" x="22" y="61">C#</text>
+    <rect x="130" y="51" width="285" height="10" rx="5" fill="#21262d"/>
+    <rect class="bar" x="130" y="51" width="285" height="10" rx="5" fill="#58a6ff" style="animation-delay:0ms"/>
+    <text class="meta" x="430" y="61">17 repos</text>
+  </g>
+  <g class="enter" style="animation-delay:90ms">
+    <text class="label" x="22" y="86">JavaScript</text>
+    <rect x="130" y="76" width="285" height="10" rx="5" fill="#21262d"/>
+    <rect class="bar" x="130" y="76" width="117" height="10" rx="5" fill="#a371f7" style="animation-delay:90ms"/>
+    <text class="meta" x="430" y="86">7 repos</text>
+  </g>
+  <g class="enter" style="animation-delay:180ms">
+    <text class="label" x="22" y="111">HTML</text>
+    <rect x="130" y="101" width="285" height="10" rx="5" fill="#21262d"/>
+    <rect class="bar" x="130" y="101" width="67" height="10" rx="5" fill="#3fb950" style="animation-delay:180ms"/>
+    <text class="meta" x="430" y="111">4 repos</text>
+  </g>
+  <g class="enter" style="animation-delay:270ms">
+    <text class="label" x="22" y="136">Shell</text>
+    <rect x="130" y="126" width="285" height="10" rx="5" fill="#21262d"/>
+    <rect class="bar" x="130" y="126" width="50" height="10" rx="5" fill="#f0883e" style="animation-delay:270ms"/>
+    <text class="meta" x="430" y="136">3 repos</text>
+  </g>
+  <g class="enter" style="animation-delay:360ms">
+    <text class="label" x="22" y="161">C</text>
+    <rect x="130" y="151" width="285" height="10" rx="5" fill="#21262d"/>
+    <rect class="bar" x="130" y="151" width="34" height="10" rx="5" fill="#f778ba" style="animation-delay:360ms"/>
+    <text class="meta" x="430" y="161">2 repos</text>
+  </g>
+  <text class="meta" x="22" y="207">Primary language by repository · Updated 2026-07-28</text>
 </svg>
