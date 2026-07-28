@@ -31,5 +31,6 @@ Light-mode prompt:
 - Social and technology badges are rendered by
   [Shields.io](https://shields.io/), with logo marks supplied through its
   supported icon catalog.
-- GitHub activity cards are rendered by
-  [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats).
+- `github-stats.svg` and `top-languages.svg` are generated inside this
+  repository from Jakeuj's public GitHub API data. A scheduled GitHub Actions
+  workflow refreshes them daily.

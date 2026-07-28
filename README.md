@@ -57,16 +57,8 @@
 ## Engineering snapshot
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=jakeuj&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github&amp;theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=jakeuj&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github&amp;theme=default">
-    <img alt="Jakeuj's GitHub statistics" height="165" src="https://github-readme-stats.vercel.app/api?username=jakeuj&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github&amp;theme=default">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=jakeuj&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=jakeuj&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;theme=default">
-    <img alt="Languages used across Jakeuj's public repositories" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jakeuj&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;theme=default">
-  </picture>
+  <img alt="Jakeuj's GitHub engineering snapshot" width="49%" src="./assets/github-stats.svg">
+  <img alt="Languages used across Jakeuj's public repositories" width="49%" src="./assets/top-languages.svg">
 </p>
 
 ## Find me around the web
