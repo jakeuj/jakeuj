@@ -95,7 +95,7 @@
 - Social: [Facebook](https://www.facebook.com/jakeuj/) · [X](https://twitter.com/jakeuj) · [Instagram](https://www.instagram.com/jakeuj00/) · [Reddit](https://www.reddit.com/user/jakeuj/)
 - Community: [Discord](https://discord.gg/BDaMRGp)
 - Video: [YouTube](https://www.youtube.com/@Jakeuj) · [Bilibili](https://space.bilibili.com/2508649/)
-- Contact and support: [Email](mailto:jakeuj@hotmail.com) · [PayPal](https://www.paypal.com/ncp/payment/PLYGLLUS2Z8VS)
+- Contact and support: [Email](mailto:jakeuj@hotmail.com) · [Ko-fi](https://ko-fi.com/jakeuj) · [PayPal](https://www.paypal.com/ncp/payment/PLYGLLUS2Z8VS)
 
 </details>
 
@@ -106,6 +106,10 @@
   <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-snake-light.svg">
   <img alt="Animated visualization of Jakeuj's GitHub contributions" src="./assets/contribution-snake-dark.svg" width="100%">
 </picture>
+
+<p align="center">
+  <a href="https://ko-fi.com/Q1Z323N3GB"><img alt="Support Jakeuj on Ko-fi" src="https://ko-fi.com/img/githubbutton_sm.svg"></a>
+</p>
 
 ---
 
