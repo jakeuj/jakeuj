@@ -20,7 +20,7 @@
   <rect class="card" x=".5" y=".5" width="494" height="219" rx="10"/>
   <text class="title" x="22" y="34">GitHub engineering snapshot</text>
   <g class="enter" style="animation-delay:0ms">
-    <text class="value" x="22" y="76">79</text>
+    <text class="value" x="22" y="76">80</text>
     <text class="label" x="22" y="95">Public repos</text>
   </g>
   <g class="enter" style="animation-delay:100ms">
@@ -37,6 +37,6 @@
   </g>
   <circle class="pulse" cx="28" cy="181" r="5" fill="#3fb950"/>
   <text class="label" x="42" y="185">Currently building</text>
-  <text class="meta" x="152" y="185">gw2-pathing-zh-tw · pushed 2026-08-06</text>
-  <text class="meta" x="384" y="207">Updated 2026-08-07</text>
+  <text class="meta" x="152" y="185">writerside · pushed 2026-08-07</text>
+  <text class="meta" x="384" y="207">Updated 2026-08-08</text>
 </svg>
