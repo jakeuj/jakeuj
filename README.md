@@ -65,6 +65,13 @@
 
 </details>
 
+## Open-source contributions
+
+| Project | Merged contribution | Impact |
+| --- | --- | --- |
+| [**oMLX**](https://github.com/jundot/omlx) | [**#2799 · Align wired-limit hints to whole MiB**](https://github.com/jundot/omlx/pull/2799) — 2026-08-18 | Aligns wired-memory recommendations with whole-MiB kernel values, preventing an impossible warning loop. |
+| [**oMLX**](https://github.com/jundot/omlx) | [**#2806 · Resolve VLM MTP conflicts on apply**](https://github.com/jundot/omlx/pull/2806) — 2026-08-18 | Resolves VLM-MTP profile conflicts, preserves valid settings, and returns clear validation errors. |
+
 ## Latest notes
 
 <!-- BLOG-POST-LIST:START -->
