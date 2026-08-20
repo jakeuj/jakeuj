@@ -53,6 +53,7 @@
   <a href="https://github.com/jakeuj/CodexPlugins"><img alt="CodexPlugins project card" width="49%" src="./assets/project-codex-plugins.svg"></a>
   <a href="https://github.com/jakeuj/pixerDotnet"><img alt="Pixer .NET project card" width="49%" src="./assets/project-pixer-dotnet.svg"></a>
   <a href="https://github.com/jakeuj/GW2-Nexus-Upgrade-Value"><img alt="Upgrade Value project card" width="49%" src="./assets/project-gw2-upgrade-value.svg"></a>
+  <a href="https://github.com/jakeuj/ChromeExtensionPobZh"><img alt="PoB Sharer project card" width="49%" src="./assets/project-pob-sharer.svg"></a>
 </p>
 
 <details>
@@ -64,6 +65,7 @@
 | [**CodexPlugins**](https://github.com/jakeuj/CodexPlugins) | Curated Codex and Claude Code plugins for reusable agent-assisted development workflows | Skills · MCP · Shell |
 | [**Pixer .NET**](https://github.com/jakeuj/pixerDotnet) | A .NET 9 client for image conversion, TCP device communication, and firmware workflows | C# · .NET 9 · TCP |
 | [**Upgrade Value**](https://github.com/jakeuj/GW2-Nexus-Upgrade-Value) | A Guild Wars 2 Nexus addon that scans embedded upgrades and compares live Trading Post prices | C++ · Nexus · GW2 API |
+| [**PoB Sharer**](https://github.com/jakeuj/ChromeExtensionPobZh) | A Chrome and Edge extension for one-click Chinese PoB sharing from poe.ninja | JavaScript · Manifest V3 · Chrome/Edge |
 
 </details>
 

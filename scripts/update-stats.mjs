@@ -33,6 +33,14 @@ const selectedProjects = [
     stack: "C++ · Nexus · GW2 API",
     accent: "#f0883e",
   },
+  {
+    name: "ChromeExtensionPobZh",
+    displayName: "PoB Sharer",
+    description: "One-click Chinese PoB sharing from poe.ninja.",
+    file: "project-pob-sharer.svg",
+    stack: "JavaScript · Manifest V3 · Chrome/Edge",
+    accent: "#f778ba",
+  },
 ];
 
 async function github(path) {
@@ -116,7 +124,8 @@ function cardShell(title, description, body, height = 220) {
 
 function projectCard(repo, project) {
   const displayName = project.displayName || repo.name;
-  const descriptionLines = wrapText(repo.description, 55, 2);
+  const summary = project.description || repo.description || project.stack;
+  const descriptionLines = wrapText(summary, 55, 2);
   const description = descriptionLines
     .map((line, index) =>
       `<text class="description" x="22" y="${82 + index * 21}">${escapeXml(line)}</text>`)
@@ -124,7 +133,7 @@ function projectCard(repo, project) {
   const updated = repo.pushed_at.slice(0, 10);
   return `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="205" viewBox="0 0 495 205" role="img" aria-labelledby="title description">
   <title id="title">${escapeXml(displayName)}</title>
-  <desc id="description">${escapeXml(repo.description || project.stack)}</desc>
+  <desc id="description">${escapeXml(summary)}</desc>
   <style>
     .card { fill:#0d1117; stroke:#30363d; }
     .name { fill:#f0f6fc; font:700 20px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
