@@ -52,6 +52,7 @@
   <a href="https://github.com/jakeuj/writerside"><img alt="Jakeuj's Notes project card" width="49%" src="./assets/project-writerside.svg"></a>
   <a href="https://github.com/jakeuj/CodexPlugins"><img alt="CodexPlugins project card" width="49%" src="./assets/project-codex-plugins.svg"></a>
   <a href="https://github.com/jakeuj/pixerDotnet"><img alt="Pixer .NET project card" width="49%" src="./assets/project-pixer-dotnet.svg"></a>
+  <a href="https://github.com/jakeuj/GW2-Nexus-Upgrade-Value"><img alt="Upgrade Value project card" width="49%" src="./assets/project-gw2-upgrade-value.svg"></a>
 </p>
 
 <details>
@@ -62,6 +63,7 @@
 | [**Jakeuj's Notes**](https://github.com/jakeuj/writerside) | A Traditional Chinese knowledge base for .NET, cloud, DevOps, AI tooling, macOS, and field-tested troubleshooting | Writerside · Markdown · GitHub Pages |
 | [**CodexPlugins**](https://github.com/jakeuj/CodexPlugins) | Curated Codex and Claude Code plugins for reusable agent-assisted development workflows | Skills · MCP · Shell |
 | [**Pixer .NET**](https://github.com/jakeuj/pixerDotnet) | A .NET 9 client for image conversion, TCP device communication, and firmware workflows | C# · .NET 9 · TCP |
+| [**Upgrade Value**](https://github.com/jakeuj/GW2-Nexus-Upgrade-Value) | A Guild Wars 2 Nexus addon that scans embedded upgrades and compares live Trading Post prices | C++ · Nexus · GW2 API |
 
 </details>
 

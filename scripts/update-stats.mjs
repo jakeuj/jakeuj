@@ -26,6 +26,13 @@ const selectedProjects = [
     stack: "C# · .NET 9 · TCP",
     accent: "#4ade80",
   },
+  {
+    name: "GW2-Nexus-Upgrade-Value",
+    displayName: "Upgrade Value",
+    file: "project-gw2-upgrade-value.svg",
+    stack: "C++ · Nexus · GW2 API",
+    accent: "#f0883e",
+  },
 ];
 
 async function github(path) {
@@ -108,6 +115,7 @@ function cardShell(title, description, body, height = 220) {
 }
 
 function projectCard(repo, project) {
+  const displayName = project.displayName || repo.name;
   const descriptionLines = wrapText(repo.description, 55, 2);
   const description = descriptionLines
     .map((line, index) =>
@@ -115,7 +123,7 @@ function projectCard(repo, project) {
     .join("\n  ");
   const updated = repo.pushed_at.slice(0, 10);
   return `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="205" viewBox="0 0 495 205" role="img" aria-labelledby="title description">
-  <title id="title">${escapeXml(repo.name)}</title>
+  <title id="title">${escapeXml(displayName)}</title>
   <desc id="description">${escapeXml(repo.description || project.stack)}</desc>
   <style>
     .card { fill:#0d1117; stroke:#30363d; }
@@ -137,7 +145,7 @@ function projectCard(repo, project) {
   <path class="signal" d="M0 2H495" fill="none" stroke="${project.accent}" stroke-width="3"/>
   <g class="enter">
     <circle class="pulse" cx="28" cy="35" r="6" fill="${project.accent}"/>
-    <text class="name" x="44" y="42">${escapeXml(repo.name)}</text>
+    <text class="name" x="44" y="42">${escapeXml(displayName)}</text>
     ${description}
     <text class="stack" x="22" y="139">${escapeXml(project.stack)}</text>
     <path d="M22 156H473" stroke="#21262d"/>
