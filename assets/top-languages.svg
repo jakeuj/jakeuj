@@ -38,16 +38,16 @@
     <text class="meta" x="430" y="111">4 repos</text>
   </g>
   <g class="enter" style="animation-delay:270ms">
-    <text class="label" x="22" y="136">Shell</text>
+    <text class="label" x="22" y="136">Python</text>
     <rect x="130" y="126" width="285" height="10" rx="5" fill="#21262d"/>
     <rect class="bar" x="130" y="126" width="50" height="10" rx="5" fill="#f0883e" style="animation-delay:270ms"/>
     <text class="meta" x="430" y="136">3 repos</text>
   </g>
   <g class="enter" style="animation-delay:360ms">
-    <text class="label" x="22" y="161">TypeScript</text>
+    <text class="label" x="22" y="161">Shell</text>
     <rect x="130" y="151" width="285" height="10" rx="5" fill="#21262d"/>
     <rect class="bar" x="130" y="151" width="50" height="10" rx="5" fill="#f778ba" style="animation-delay:360ms"/>
     <text class="meta" x="430" y="161">3 repos</text>
   </g>
-  <text class="meta" x="22" y="207">Primary language by repository · Updated 2026-09-17</text>
+  <text class="meta" x="22" y="207">Primary language by repository · Updated 2026-09-18</text>
 </svg>
