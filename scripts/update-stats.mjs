@@ -179,7 +179,7 @@ function markdownTitle(value) {
 
 async function updateRecentPosts() {
   try {
-    const response = await fetch("https://www.dotblogs.com.tw/jakeuj/Rss", {
+    const response = await fetch("https://jakeuj.com/feed.xml", {
       headers: { "User-Agent": "jakeuj-profile-rss" },
       signal: AbortSignal.timeout(15000),
     });
@@ -192,12 +192,18 @@ async function updateRecentPosts() {
         const link = rssValue(match[1], "link");
         const rawDate = rssValue(match[1], "pubDate");
         const parsedDate = new Date(rawDate);
+        // feed dates are Asia/Taipei midnight; toISOString() would shift them to the previous UTC day
         const date = Number.isNaN(parsedDate.valueOf())
           ? ""
-          : parsedDate.toISOString().slice(0, 10);
+          : new Intl.DateTimeFormat("en-CA", {
+            timeZone: "Asia/Taipei",
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit",
+          }).format(parsedDate);
         return { title, link, date };
       })
-      .filter((post) => post.title && /^https:\/\/www\.dotblogs\.com\.tw\//.test(post.link));
+      .filter((post) => post.title && /^https:\/\/jakeuj\.com\//.test(post.link));
     if (!posts.length) throw new Error("RSS did not contain usable posts");
 
     const start = "<!-- BLOG-POST-LIST:START -->";

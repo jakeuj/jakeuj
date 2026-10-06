@@ -101,7 +101,7 @@
 <details>
 <summary><strong>All social, publishing, and support links</strong></summary>
 
-- Publishing: [點部落](https://www.dotblogs.com.tw/jakeuj) · [RSS](https://www.dotblogs.com.tw/jakeuj/Rss)
+- Publishing: [Jakeuj's Notes](https://jakeuj.com/default.html) · [RSS](https://jakeuj.com/feed.xml) · [點部落（舊文）](https://www.dotblogs.com.tw/jakeuj)
 - Developer profiles: [GitHub](https://github.com/jakeuj) · [Stack Overflow](https://stackoverflow.com/users/4104545/jakeuj) · [ORCID](https://orcid.org/0009-0007-4608-9900)
 - Social: [Facebook](https://www.facebook.com/jakeuj/) · [X](https://twitter.com/jakeuj) · [Instagram](https://www.instagram.com/jakeuj00/) · [Reddit](https://www.reddit.com/user/jakeuj/)
 - Community: [Discord](https://discord.gg/BDaMRGp)
