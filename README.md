@@ -79,9 +79,9 @@
 ## Latest notes
 
 <!-- BLOG-POST-LIST:START -->
-- [**ABP.IO File System**](https://www.dotblogs.com.tw/jakeuj/2025/04/09/Abp-File-System) — 2025-04-09
-- [**ABP.IO File Management**](https://www.dotblogs.com.tw/jakeuj/2025/04/09/ABP-File-Management) — 2025-04-09
-- [**HTTP 301 Moved Permanently https://jakeuj.com/**](https://www.dotblogs.com.tw/jakeuj/2024/09/24/jakeuj-com) — 2024-09-24
+- [**聖火降魔錄 萬縷千絲（萬紫千紅）培養計算器：成長率公式與坐騎加成**](https://jakeuj.com/fire-emblem-fortunes-weave-growth-calculator.html) — 2026-10-06
+- [**FramePack Windows 一鍵包支援 RTX 5090：升級 PyTorch cu128 與 SageAttention**](https://jakeuj.com/framepack-rtx-5090-windows.html) — 2026-10-06
+- [**Gradio 在 Windows 反覆出現 WinError 10022 的原因與修正**](https://jakeuj.com/gradio-asyncio-winerror-10022.html) — 2026-10-06
 <!-- BLOG-POST-LIST:END -->
 
 ## Engineering snapshot
