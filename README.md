@@ -6,7 +6,7 @@
 
 <h1 align="center">Hi, I'm Jakeuj 👋</h1>
 
-<h3 align="center">.NET &amp; Cloud Engineer building AI-powered tools from Taiwan.</h3>
+<h3 align="center">.NET &amp; Cloud Engineer building AI-powered tools from Taipei.</h3>
 
 <p align="center">
   I turn infrastructure, automation, and real-world troubleshooting into
