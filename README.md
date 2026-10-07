@@ -79,9 +79,9 @@
 ## Latest notes
 
 <!-- BLOG-POST-LIST:START -->
-- [**聖火降魔錄 萬縷千絲（萬紫千紅）培養計算器：成長率公式與坐騎加成**](https://jakeuj.com/fire-emblem-fortunes-weave-growth-calculator.html) — 2026-10-06
-- [**FramePack Windows 一鍵包支援 RTX 5090：升級 PyTorch cu128 與 SageAttention**](https://jakeuj.com/framepack-rtx-5090-windows.html) — 2026-10-06
-- [**Gradio 在 Windows 反覆出現 WinError 10022 的原因與修正**](https://jakeuj.com/gradio-asyncio-winerror-10022.html) — 2026-10-06
+- [**Evennia 中文指令解析與 CmdSet 實作**](https://jakeuj.com/evennia-chinese-commands-cmdsets.html) — 2026-10-07
+- [**Evennia 時間與狀態更新機制怎麼選**](https://jakeuj.com/evennia-time-state-updates.html) — 2026-10-07
+- [**用 graphify 把 repo 做成知識圖，發布到 GitHub Pages**](https://jakeuj.com/graphify-knowledge-graph-github-pages.html) — 2026-10-07
 <!-- BLOG-POST-LIST:END -->
 
 ## Engineering snapshot
