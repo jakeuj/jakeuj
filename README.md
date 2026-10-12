@@ -79,9 +79,9 @@
 ## Latest notes
 
 <!-- BLOG-POST-LIST:START -->
+- [**Azure CLI az login 訂閱選擇器：觸發條件、關閉方式與快速登入**](https://jakeuj.com/azure-cli-login-subscription-selector.html) — 2026-10-12
+- [**C# 狀態機、狀態模式與策略模式：差異與選擇**](https://jakeuj.com/csharp-state-machine-state-pattern.html) — 2026-10-07
 - [**Evennia 中文指令解析與 CmdSet 實作**](https://jakeuj.com/evennia-chinese-commands-cmdsets.html) — 2026-10-07
-- [**Evennia 時間與狀態更新機制怎麼選**](https://jakeuj.com/evennia-time-state-updates.html) — 2026-10-07
-- [**用 graphify 把 repo 做成知識圖，發布到 GitHub Pages**](https://jakeuj.com/graphify-knowledge-graph-github-pages.html) — 2026-10-07
 <!-- BLOG-POST-LIST:END -->
 
 ## Engineering snapshot
