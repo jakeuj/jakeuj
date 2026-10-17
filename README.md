@@ -79,9 +79,9 @@
 ## Latest notes
 
 <!-- BLOG-POST-LIST:START -->
+- [**Wi-Fi 7 路由器單房間升級：1G 光世代該買哪一台**](https://jakeuj.com/wifi-7-router-single-room-upgrade.html) — 2026-10-16
+- [**領取 Claude Max 與 Team 方案每月免費 API 額度**](https://jakeuj.com/claude-max-team-monthly-api-credits.html) — 2026-10-13
 - [**Azure CLI az login 訂閱選擇器：觸發條件、關閉方式與快速登入**](https://jakeuj.com/azure-cli-login-subscription-selector.html) — 2026-10-12
-- [**C# 狀態機、狀態模式與策略模式：差異與選擇**](https://jakeuj.com/csharp-state-machine-state-pattern.html) — 2026-10-07
-- [**Evennia 中文指令解析與 CmdSet 實作**](https://jakeuj.com/evennia-chinese-commands-cmdsets.html) — 2026-10-07
 <!-- BLOG-POST-LIST:END -->
 
 ## Engineering snapshot
