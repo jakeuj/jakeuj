@@ -79,9 +79,9 @@
 ## Latest notes
 
 <!-- BLOG-POST-LIST:START -->
+- [**線上課程背景播放 JavaScript：套用、還原與計時驗證**](https://jakeuj.com/elearning-progress-api-visibility.html) — 2026-10-19
 - [**Wi-Fi 7 路由器單房間升級：1G 光世代該買哪一台**](https://jakeuj.com/wifi-7-router-single-room-upgrade.html) — 2026-10-16
 - [**領取 Claude Max 與 Team 方案每月免費 API 額度**](https://jakeuj.com/claude-max-team-monthly-api-credits.html) — 2026-10-13
-- [**Azure CLI az login 訂閱選擇器：觸發條件、關閉方式與快速登入**](https://jakeuj.com/azure-cli-login-subscription-selector.html) — 2026-10-12
 <!-- BLOG-POST-LIST:END -->
 
 ## Engineering snapshot
