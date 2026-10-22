@@ -79,9 +79,9 @@
 ## Latest notes
 
 <!-- BLOG-POST-LIST:START -->
+- [**AdGuard for Mac 不過濾 localhost：在 User rules 加入 $document 例外規則**](https://jakeuj.com/adguard-localhost-allowlist.html) — 2026-10-22
+- [**Azure SQL 稽核寫不進儲存體：金鑰重新產生後要重新儲存稽核設定**](https://jakeuj.com/azure-sql-auditing-storage-key-rotation.html) — 2026-10-22
 - [**SQL Server OPTION (HASH JOIN)：用途、執行計畫與效能驗證**](https://jakeuj.com/sql-server-option-hash-join.html) — 2026-10-20
-- [**線上課程背景播放 JavaScript：套用、還原與計時驗證**](https://jakeuj.com/elearning-progress-api-visibility.html) — 2026-10-19
-- [**Wi-Fi 7 路由器單房間升級：1G 光世代該買哪一台**](https://jakeuj.com/wifi-7-router-single-room-upgrade.html) — 2026-10-16
 <!-- BLOG-POST-LIST:END -->
 
 ## Engineering snapshot
