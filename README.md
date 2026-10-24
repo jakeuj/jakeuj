@@ -80,7 +80,7 @@
 
 <!-- BLOG-POST-LIST:START -->
 - [**GitHub Projects 草稿不顯示：用 gh 查證與原地轉成 Issue**](https://jakeuj.com/github-projects-draft-issue-not-visible.html) — 2026-10-23
-- [**AdGuard for Mac 不過濾 localhost：在 User rules 加入 $document 例外規則**](https://jakeuj.com/adguard-localhost-allowlist.html) — 2026-10-22
+- [**AdGuard 不過濾 localhost：User rules 的 $document 例外規則（Mac／Windows）**](https://jakeuj.com/adguard-localhost-allowlist.html) — 2026-10-22
 - [**Azure SQL 稽核寫不進儲存體：金鑰重新產生後要重新儲存稽核設定**](https://jakeuj.com/azure-sql-auditing-storage-key-rotation.html) — 2026-10-22
 <!-- BLOG-POST-LIST:END -->
 
