@@ -28,8 +28,8 @@
   <g class="enter" style="animation-delay:90ms">
       <text class="label" x="22" y="86">JavaScript</text>
       <rect x="130" y="76" width="285" height="10" rx="5" fill="#21262d"/>
-      <rect class="bar" x="130" y="76" width="168" height="10" rx="5" fill="#a371f7" style="animation-delay:90ms"/>
-      <text class="meta" x="430" y="86">10 repos</text>
+      <rect class="bar" x="130" y="76" width="184" height="10" rx="5" fill="#a371f7" style="animation-delay:90ms"/>
+      <text class="meta" x="430" y="86">11 repos</text>
     </g>
   <g class="enter" style="animation-delay:180ms">
       <text class="label" x="22" y="111">HTML</text>

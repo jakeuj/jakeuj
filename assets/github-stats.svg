@@ -20,7 +20,7 @@
   <rect class="card" x=".5" y=".5" width="494" height="249" rx="10"/>
   <text class="title" x="22" y="34">GitHub engineering snapshot</text>
   <g class="enter" style="animation-delay:0ms">
-      <text class="value" x="22" y="76">86</text>
+      <text class="value" x="22" y="76">87</text>
       <text class="label" x="22" y="95">Public repos</text>
     </g>
   <g class="enter" style="animation-delay:100ms">
