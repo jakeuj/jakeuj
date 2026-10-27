@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Verify profile generator
+        run: node --test scripts/update-stats.test.mjs
+
       - name: Generate profile content
         run: node scripts/update-stats.mjs
         env:

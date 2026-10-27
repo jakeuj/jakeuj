@@ -1,12 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="205" viewBox="0 0 495 205" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="180" viewBox="0 0 495 180" role="img" aria-labelledby="title description">
   <title id="title">PoB Sharer</title>
-  <desc id="description">One-click Chinese PoB sharing from poe.ninja.</desc>
+  <desc id="description">Share poe.ninja builds as Chinese PoB pages in one click on Chrome and Edge.</desc>
   <style>
     .card { fill:#0d1117; stroke:#30363d; }
     .name { fill:#f0f6fc; font:700 20px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
-    .description { fill:#b1bac4; font:400 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
-    .stack { fill:#8b949e; font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
-    .metric { fill:#c9d1d9; font:600 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .description { fill:#b1bac4; font:400 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .stack { fill:#8b949e; font:500 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
     .enter { animation:enter .8s ease-out both; }
     .signal { stroke-dasharray:90 410; animation:signal 5s linear infinite; }
     .pulse { animation:pulse 2.5s ease-in-out infinite; }
@@ -17,16 +16,14 @@
       .enter,.signal,.pulse { animation:none !important; }
     }
   </style>
-  <rect class="card" x=".5" y=".5" width="494" height="204" rx="12"/>
+  <rect class="card" x=".5" y=".5" width="494" height="179" rx="12"/>
   <path class="signal" d="M0 2H495" fill="none" stroke="#f778ba" stroke-width="3"/>
   <g class="enter">
     <circle class="pulse" cx="28" cy="35" r="6" fill="#f778ba"/>
     <text class="name" x="44" y="42">PoB Sharer</text>
-    <text class="description" x="22" y="82">One-click Chinese PoB sharing from poe.ninja.</text>
-    <text class="stack" x="22" y="139">JavaScript · Manifest V3 · Chrome/Edge</text>
-    <path d="M22 156H473" stroke="#21262d"/>
-    <text class="metric" x="22" y="182">★ 1</text>
-    <text class="metric" x="88" y="182">⑂ 0</text>
-    <text class="stack" x="284" y="182">pushed 2026-09-14</text>
+    <text class="description" x="22" y="82">Share poe.ninja builds as Chinese PoB pages in</text>
+  <text class="description" x="22" y="103">one click on Chrome and Edge.</text>
+    <path d="M22 128H473" stroke="#21262d"/>
+    <text class="stack" x="22" y="157">JavaScript · Manifest V3 · Chrome/Edge</text>
   </g>
 </svg>

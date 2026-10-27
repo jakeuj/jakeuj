@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="220" viewBox="0 0 495 220" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="250" viewBox="0 0 495 250" role="img" aria-labelledby="title description">
   <title id="title">Languages across active repositories</title>
   <desc id="description">Animated bars showing the primary languages across active public repositories.</desc>
   <style>
@@ -17,37 +17,37 @@
       .enter,.bar,.pulse { animation:none !important; }
     }
   </style>
-  <rect class="card" x=".5" y=".5" width="494" height="219" rx="10"/>
+  <rect class="card" x=".5" y=".5" width="494" height="249" rx="10"/>
   <text class="title" x="22" y="34">Languages across active repositories</text>
   <g class="enter" style="animation-delay:0ms">
-    <text class="label" x="22" y="61">C#</text>
-    <rect x="130" y="51" width="285" height="10" rx="5" fill="#21262d"/>
-    <rect class="bar" x="130" y="51" width="285" height="10" rx="5" fill="#58a6ff" style="animation-delay:0ms"/>
-    <text class="meta" x="430" y="61">17 repos</text>
-  </g>
+      <text class="label" x="22" y="61">C#</text>
+      <rect x="130" y="51" width="285" height="10" rx="5" fill="#21262d"/>
+      <rect class="bar" x="130" y="51" width="285" height="10" rx="5" fill="#58a6ff" style="animation-delay:0ms"/>
+      <text class="meta" x="430" y="61">17 repos</text>
+    </g>
   <g class="enter" style="animation-delay:90ms">
-    <text class="label" x="22" y="86">JavaScript</text>
-    <rect x="130" y="76" width="285" height="10" rx="5" fill="#21262d"/>
-    <rect class="bar" x="130" y="76" width="168" height="10" rx="5" fill="#a371f7" style="animation-delay:90ms"/>
-    <text class="meta" x="430" y="86">10 repos</text>
-  </g>
+      <text class="label" x="22" y="86">JavaScript</text>
+      <rect x="130" y="76" width="285" height="10" rx="5" fill="#21262d"/>
+      <rect class="bar" x="130" y="76" width="168" height="10" rx="5" fill="#a371f7" style="animation-delay:90ms"/>
+      <text class="meta" x="430" y="86">10 repos</text>
+    </g>
   <g class="enter" style="animation-delay:180ms">
-    <text class="label" x="22" y="111">HTML</text>
-    <rect x="130" y="101" width="285" height="10" rx="5" fill="#21262d"/>
-    <rect class="bar" x="130" y="101" width="67" height="10" rx="5" fill="#3fb950" style="animation-delay:180ms"/>
-    <text class="meta" x="430" y="111">4 repos</text>
-  </g>
+      <text class="label" x="22" y="111">HTML</text>
+      <rect x="130" y="101" width="285" height="10" rx="5" fill="#21262d"/>
+      <rect class="bar" x="130" y="101" width="67" height="10" rx="5" fill="#3fb950" style="animation-delay:180ms"/>
+      <text class="meta" x="430" y="111">4 repos</text>
+    </g>
   <g class="enter" style="animation-delay:270ms">
-    <text class="label" x="22" y="136">Shell</text>
-    <rect x="130" y="126" width="285" height="10" rx="5" fill="#21262d"/>
-    <rect class="bar" x="130" y="126" width="50" height="10" rx="5" fill="#f0883e" style="animation-delay:270ms"/>
-    <text class="meta" x="430" y="136">3 repos</text>
-  </g>
+      <text class="label" x="22" y="136">Shell</text>
+      <rect x="130" y="126" width="285" height="10" rx="5" fill="#21262d"/>
+      <rect class="bar" x="130" y="126" width="50" height="10" rx="5" fill="#f0883e" style="animation-delay:270ms"/>
+      <text class="meta" x="430" y="136">3 repos</text>
+    </g>
   <g class="enter" style="animation-delay:360ms">
-    <text class="label" x="22" y="161">TypeScript</text>
-    <rect x="130" y="151" width="285" height="10" rx="5" fill="#21262d"/>
-    <rect class="bar" x="130" y="151" width="50" height="10" rx="5" fill="#f778ba" style="animation-delay:360ms"/>
-    <text class="meta" x="430" y="161">3 repos</text>
-  </g>
-  <text class="meta" x="22" y="207">Primary language by repository · Updated 2026-10-26</text>
+      <text class="label" x="22" y="161">TypeScript</text>
+      <rect x="130" y="151" width="285" height="10" rx="5" fill="#21262d"/>
+      <rect class="bar" x="130" y="151" width="50" height="10" rx="5" fill="#f778ba" style="animation-delay:360ms"/>
+      <text class="meta" x="430" y="161">3 repos</text>
+    </g>
+    <text class="meta" x="22" y="235">Primary language by repository · Updated 2026-10-27</text>
 </svg>

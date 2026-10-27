@@ -6,31 +6,80 @@
 
 <h1 align="center">Hi, I'm Jakeuj 👋</h1>
 
-<h3 align="center">.NET &amp; Cloud Engineer building AI-powered tools from Taipei.</h3>
+<h3 align="center">Software Architect · .NET, Cloud &amp; AI Developer Tooling</h3>
 
 <p align="center">
-  I turn infrastructure, automation, and real-world troubleshooting into
-  open-source tools and practical technical notes.
+  Software Architect at GIGABYTE, based in Taipei, with 15+ years of experience
+  in software development and architecture across enterprise and gaming platforms.
+  I build cloud systems and developer tools, and turn practical troubleshooting
+  into reusable technical notes.
 </p>
 
 <p align="center">
-  <a href="https://jakeuj.com/default.html"><img alt="Jakeuj's Notes" src="https://img.shields.io/badge/Jakeuj's%20Notes-111827?style=for-the-badge&amp;logo=bookstack&amp;logoColor=22d3ee"></a>
+  現任技嘉科技架構師，擁有 15 年以上開發與架構經驗，涵蓋企業與遊戲平台。
+  專注 .NET、雲端與 AI 開發工具，透過開源作品與繁中技術筆記分享實作經驗。
+</p>
+
+<p align="center">
+  <a href="https://jakeuj.com/default.html"><img alt="Technical Notes" src="https://img.shields.io/badge/Technical%20Notes-111827?style=for-the-badge&amp;logo=bookstack&amp;logoColor=22d3ee"></a>
   <a href="https://www.linkedin.com/in/jakeuj/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"></a>
-  <a href="https://stackoverflow.com/users/4104545/jakeuj"><img alt="Stack Overflow" src="https://img.shields.io/badge/Stack%20Overflow-F58025?style=for-the-badge&amp;logo=stackoverflow&amp;logoColor=white"></a>
-  <a href="https://www.youtube.com/@Jakeuj"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&amp;logo=youtube&amp;logoColor=white"></a>
   <a href="mailto:jakeuj@hotmail.com"><img alt="Email Jakeuj" src="https://img.shields.io/badge/Email-334155?style=for-the-badge&amp;logo=gmail&amp;logoColor=white"></a>
 </p>
 
-## What I build
+## Selected Work
 
-| Area | What I care about |
+<p align="center">
+  <a href="https://github.com/jakeuj/writerside"><img alt="Jakeuj's Notes project card" width="49%" src="./assets/project-writerside.svg"></a>
+  <a href="https://github.com/jakeuj/CodexPlugins"><img alt="CodexPlugins project card" width="49%" src="./assets/project-codex-plugins.svg"></a>
+  <a href="https://github.com/jakeuj/pixerDotnet"><img alt="Pixer .NET project card" width="49%" src="./assets/project-pixer-dotnet.svg"></a>
+  <a href="https://pc.jakeuj.com/"><img alt="PC Quote Sharing project card" width="49%" src="./assets/project-pc-builder.svg"></a>
+  <a href="https://github.com/jakeuj/GW2-Nexus-Upgrade-Value"><img alt="Upgrade Value project card" width="49%" src="./assets/project-gw2-upgrade-value.svg"></a>
+  <a href="https://github.com/jakeuj/ChromeExtensionPobZh"><img alt="PoB Sharer project card" width="49%" src="./assets/project-pob-sharer.svg"></a>
+</p>
+
+<details>
+<summary><strong>Project details</strong></summary>
+
+- **Jakeuj's Notes** — Reusable Traditional Chinese notes on .NET, cloud, AI tooling, and practical troubleshooting.
+  [Read the notes](https://jakeuj.com/default.html) · [Source](https://github.com/jakeuj/writerside) · Writerside / Markdown / GitHub Pages
+- **CodexPlugins** — Codex and Claude Code plugins for Evennia MUD development workflows.
+  [Source and setup](https://github.com/jakeuj/CodexPlugins) · Codex / Claude Code / Skills
+- **Pixer .NET** — Image processing, TCP device transfers, and Pixer picture-frame firmware updates.
+  [Source and usage](https://github.com/jakeuj/pixerDotnet) · C# / .NET 9 / TCP
+- **PC Quote Sharing／原價屋估價單分享** — Share PC quotes that preserve item prices and quote dates, compare revisions, and review historical prices.
+  [Use the tool](https://pc.jakeuj.com/) · [Source](https://github.com/jakeuj/architect-pc-builder) · Python / JavaScript / GitHub Actions
+- **Upgrade Value** — Compare live prices of embedded upgrades to guide Guild Wars 2 salvage decisions.
+  [Project website](https://gw2-value.jakeuj.com/) · [Install via Nexus](https://raidcore.gg/gw2/addons/upgrade-value) · [Source](https://github.com/jakeuj/GW2-Nexus-Upgrade-Value) · C++ / Nexus / GW2 API
+- **PoB Sharer** — Share poe.ninja builds as Chinese PoB pages in one click on Chrome and Edge.
+  [Website and installation](https://poe.jakeuj.com/) · [Source](https://github.com/jakeuj/ChromeExtensionPobZh) · JavaScript / Manifest V3
+
+</details>
+
+[View all projects／查看完整作品 →](https://jakeuj.com/side-projects.html)
+
+## Recent Work
+
+*Reviewed 2026-10-27 · Manually curated from public project documentation and functional changes.*
+
+- **Bandit Save Editor／山寨帳房** — Edit, compare, and export game saves locally, with offline PWA support.
+  [Use the editor](https://bandit.jakeuj.com/) · [Source and feature documentation](https://github.com/jakeuj/bandit-save-editor)
+- **PC Quote Sharing／原價屋估價單分享** — Preserve PC quote snapshots, compare revisions, and review price history.
+  [Use the tool](https://pc.jakeuj.com/) · [Revision comparison update](https://github.com/jakeuj/architect-pc-builder/commit/eb8e6c21037b09a242c97140f2b0dd51e780b2bc)
+
+## Open-source Contributions
+
+Contributed fixes to [**oMLX**](https://github.com/jundot/omlx), improving memory guidance and model-profile validation for local AI on Apple Silicon. Both changes were merged on 2026-08-18.
+
+- **Prevent an impossible memory-warning loop:** align wired-memory recommendations with the whole-MiB values accepted by the kernel. [PR #2799](https://github.com/jundot/omlx/pull/2799)
+- **Make model-profile application more reliable:** resolve VLM-MTP conflicts, preserve valid settings, and return clear validation errors. [PR #2806](https://github.com/jundot/omlx/pull/2806)
+
+## Expertise & Stack
+
+| Focus | Engineering work |
 | --- | --- |
-| **.NET & application engineering** | C#, ASP.NET Core, ABP, integrations, modernization, and reliable delivery |
+| **.NET & ABP** | C#, ASP.NET Core, application architecture, integrations, and modernization |
 | **Cloud & DevOps** | Azure, Google Cloud, Docker, CI/CD, observability, and production troubleshooting |
-| **AI tooling** | Codex and Claude Code plugins, agent workflows, automation, and practical local AI |
-| **Technical knowledge** | Reproducible notes that turn solved incidents into reusable public documentation |
-
-## Core stack
+| **AI developer tooling** | Coding-agent skills and plugins, automation, and local AI workflows |
 
 <p>
   <img alt="C Sharp" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&amp;logo=dotnet&amp;logoColor=white">
@@ -46,37 +95,13 @@
   <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&amp;logo=gnubash&amp;logoColor=white">
 </p>
 
-## Selected work
+## Featured Notes
 
-<p align="center">
-  <a href="https://github.com/jakeuj/writerside"><img alt="Jakeuj's Notes project card" width="49%" src="./assets/project-writerside.svg"></a>
-  <a href="https://github.com/jakeuj/CodexPlugins"><img alt="CodexPlugins project card" width="49%" src="./assets/project-codex-plugins.svg"></a>
-  <a href="https://github.com/jakeuj/pixerDotnet"><img alt="Pixer .NET project card" width="49%" src="./assets/project-pixer-dotnet.svg"></a>
-  <a href="https://github.com/jakeuj/GW2-Nexus-Upgrade-Value"><img alt="Upgrade Value project card" width="49%" src="./assets/project-gw2-upgrade-value.svg"></a>
-  <a href="https://github.com/jakeuj/ChromeExtensionPobZh"><img alt="PoB Sharer project card" width="49%" src="./assets/project-pob-sharer.svg"></a>
-</p>
+- [**C# 狀態機、狀態模式與策略模式：差異與選擇**](https://jakeuj.com/csharp-state-machine-state-pattern.html) — Compare state machines, State, and Strategy using the same order-processing rules.
+- [**DataGrip 連線 Azure SQL：Microsoft Entra Default 驗證 20 秒逾時排錯**](https://jakeuj.com/datagrip-azure-sql-entra-auth-timeout.html) — Trace an authentication timeout across macOS GUI environments, Azure CLI, and database tooling.
+- [**Apple Silicon Mac 跑本地 LLM 時，MLX、Ollama、LM Studio、oMLX 怎麼選**](https://jakeuj.com/apple-silicon-mlx-local-llm-tools.html) — Choose a local AI toolchain for chat, model inference, or coding-agent backends.
 
-<details>
-<summary><strong>Project details</strong></summary>
-
-| Project | Focus | Stack |
-| --- | --- | --- |
-| [**Jakeuj's Notes**](https://github.com/jakeuj/writerside) | A Traditional Chinese knowledge base for .NET, cloud, DevOps, AI tooling, macOS, and field-tested troubleshooting | Writerside · Markdown · GitHub Pages |
-| [**CodexPlugins**](https://github.com/jakeuj/CodexPlugins) | Curated Codex and Claude Code plugins for reusable agent-assisted development workflows | Skills · MCP · Shell |
-| [**Pixer .NET**](https://github.com/jakeuj/pixerDotnet) | A .NET 9 client for image conversion, TCP device communication, and firmware workflows | C# · .NET 9 · TCP |
-| [**Upgrade Value**](https://github.com/jakeuj/GW2-Nexus-Upgrade-Value) | A Guild Wars 2 Nexus addon that scans embedded upgrades and compares live Trading Post prices | C++ · Nexus · GW2 API |
-| [**PoB Sharer**](https://github.com/jakeuj/ChromeExtensionPobZh) | A Chrome and Edge extension for one-click Chinese PoB sharing from poe.ninja | JavaScript · Manifest V3 · Chrome/Edge |
-
-</details>
-
-## Open-source contributions
-
-| Project | Merged contribution | Impact |
-| --- | --- | --- |
-| [**oMLX**](https://github.com/jundot/omlx) | [**#2799 · Align wired-limit hints to whole MiB**](https://github.com/jundot/omlx/pull/2799) — 2026-08-18 | Aligns wired-memory recommendations with whole-MiB kernel values, preventing an impossible warning loop. |
-| [**oMLX**](https://github.com/jundot/omlx) | [**#2806 · Resolve VLM MTP conflicts on apply**](https://github.com/jundot/omlx/pull/2806) — 2026-08-18 | Resolves VLM-MTP profile conflicts, preserves valid settings, and returns clear validation errors. |
-
-## Latest notes
+## Latest Notes
 
 <!-- BLOG-POST-LIST:START -->
 - [**GitHub Projects 草稿不顯示：用 gh 查證與原地轉成 Issue**](https://jakeuj.com/github-projects-draft-issue-not-visible.html) — 2026-10-23
@@ -84,7 +109,9 @@
 - [**Azure SQL 稽核寫不進儲存體：金鑰重新產生後要重新儲存稽核設定**](https://jakeuj.com/azure-sql-auditing-storage-key-rotation.html) — 2026-10-22
 <!-- BLOG-POST-LIST:END -->
 
-## Engineering snapshot
+[Read all notes](https://jakeuj.com/default.html) · [Subscribe via RSS](https://jakeuj.com/feed.xml)
+
+## GitHub Snapshot
 
 <p align="center">
   <img alt="Jakeuj's GitHub engineering snapshot" width="49%" src="./assets/github-stats.svg">
