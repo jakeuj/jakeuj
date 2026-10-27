@@ -59,12 +59,8 @@
 
 ## Recent Work
 
-*Reviewed 2026-10-27 · Manually curated from public project documentation and functional changes.*
-
 - **Bandit Save Editor／山寨帳房** — Edit, compare, and export game saves locally, with offline PWA support.
   [Use the editor](https://bandit.jakeuj.com/) · [Source and feature documentation](https://github.com/jakeuj/bandit-save-editor)
-- **PC Quote Sharing／原價屋估價單分享** — Preserve PC quote snapshots, compare revisions, and review price history.
-  [Use the tool](https://pc.jakeuj.com/) · [Revision comparison update](https://github.com/jakeuj/architect-pc-builder/commit/eb8e6c21037b09a242c97140f2b0dd51e780b2bc)
 
 ## Open-source Contributions
 
@@ -120,22 +116,11 @@ Contributed fixes to [**oMLX**](https://github.com/jundot/omlx), improving memor
 
 ## Find me around the web
 
-- 📚 **Knowledge base:** [Jakeuj's Notes](https://jakeuj.com/default.html)
 - 💼 **Professional:** [LinkedIn](https://www.linkedin.com/in/jakeuj/) · [Stack Overflow](https://stackoverflow.com/users/4104545/jakeuj) · [ORCID](https://orcid.org/0009-0007-4608-9900)
-- 💬 **Community:** [Discord](https://discord.gg/BDaMRGp) · [X](https://twitter.com/jakeuj) · [Reddit](https://www.reddit.com/user/jakeuj/)
+- 💬 **Community:** [Discord](https://discord.gg/BDaMRGp) · [X](https://twitter.com/jakeuj) · [Facebook](https://www.facebook.com/jakeuj/) · [Instagram](https://www.instagram.com/jakeuj00/) · [Reddit](https://www.reddit.com/user/jakeuj/)
 - 🎬 **Video:** [YouTube](https://www.youtube.com/@Jakeuj) · [Bilibili](https://space.bilibili.com/2508649/)
-
-<details>
-<summary><strong>All social, publishing, and support links</strong></summary>
-
-- Publishing: [Jakeuj's Notes](https://jakeuj.com/default.html) · [RSS](https://jakeuj.com/feed.xml) · [點部落（舊文）](https://www.dotblogs.com.tw/jakeuj)
-- Developer profiles: [GitHub](https://github.com/jakeuj) · [Stack Overflow](https://stackoverflow.com/users/4104545/jakeuj) · [ORCID](https://orcid.org/0009-0007-4608-9900)
-- Social: [Facebook](https://www.facebook.com/jakeuj/) · [X](https://twitter.com/jakeuj) · [Instagram](https://www.instagram.com/jakeuj00/) · [Reddit](https://www.reddit.com/user/jakeuj/)
-- Community: [Discord](https://discord.gg/BDaMRGp)
-- Video: [YouTube](https://www.youtube.com/@Jakeuj) · [Bilibili](https://space.bilibili.com/2508649/)
-- Contact and support: [Email](mailto:jakeuj@hotmail.com) · [Ko-fi](https://ko-fi.com/jakeuj) · [PayPal](https://www.paypal.com/ncp/payment/PLYGLLUS2Z8VS)
-
-</details>
+- 📝 **Archive:** [點部落（舊文）](https://www.dotblogs.com.tw/jakeuj)
+- ✉️ **Contact & support:** [Email](mailto:jakeuj@hotmail.com) · [PayPal](https://www.paypal.com/ncp/payment/PLYGLLUS2Z8VS)
 
 ## Contribution journey
 
@@ -147,12 +132,6 @@ Contributed fixes to [**oMLX**](https://github.com/jundot/omlx), improving memor
 
 <p align="center">
   <a href="https://ko-fi.com/Q1Z323N3GB"><img alt="Support Jakeuj on Ko-fi" src="https://ko-fi.com/img/githubbutton_sm.svg"></a>
-</p>
-
----
-
-<p align="center">
-  <a href="https://jakeuj.com/default.html"><strong>Read my Traditional Chinese technical notes →</strong></a>
 </p>
 
 <!-- Dynamic profile content is refreshed daily by GitHub Actions. -->
