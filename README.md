@@ -100,9 +100,9 @@ Contributed fixes to [**oMLX**](https://github.com/jundot/omlx), improving memor
 ## Latest Notes
 
 <!-- BLOG-POST-LIST:START -->
+- [**塔防山賊模擬器存檔修改器：山寨帳房的用法與實作**](https://jakeuj.com/bandit-save-editor.html) — 2026-10-27
+- [**用 GitHub Actions 抓原價屋報價，做成可分享估價單的靜態網站**](https://jakeuj.com/coolpc-quote-share-github-pages.html) — 2026-10-27
 - [**GitHub Projects 草稿不顯示：用 gh 查證與原地轉成 Issue**](https://jakeuj.com/github-projects-draft-issue-not-visible.html) — 2026-10-23
-- [**AdGuard 不過濾 localhost：User rules 的 $document 例外規則（Mac／Windows）**](https://jakeuj.com/adguard-localhost-allowlist.html) — 2026-10-22
-- [**Azure SQL 稽核寫不進儲存體：金鑰重新產生後要重新儲存稽核設定**](https://jakeuj.com/azure-sql-auditing-storage-key-rotation.html) — 2026-10-22
 <!-- BLOG-POST-LIST:END -->
 
 [Read all notes](https://jakeuj.com/default.html) · [Subscribe via RSS](https://jakeuj.com/feed.xml)
